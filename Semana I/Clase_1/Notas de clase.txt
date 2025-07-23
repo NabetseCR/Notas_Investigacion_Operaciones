@@ -3,10 +3,12 @@ Esteban Chinchilla Brenes - Clase 1 de Investigacion de Operaciones notas
 
 Prof: Johnny Flores Araya <johnny.flores.araya@una.ac.cr>
 Martes - Viernes 1-3 Jueves 11-12 Horario de atencion
+
+Comunicados por teams
 --------
 
 Materia:
-
+Teoria Matematica - Valor Optimo,,
 --------
 
 Grupo de Trabajo:
@@ -16,18 +18,35 @@ Grupo de Trabajo:
 
 Pendientes:
 
+> Instalar el software del Curso
+> Mathematica
+> Graphing Calculator
+
+> Completar la siguiente documentacion:
+https://www.wolfram.com/language/fast-introduction-for-math-students/es///
+https://www.wolfram.com/language/elementary-introduction/2nd-ed/01-starting-out-elementary-arithmetic.html.es
+https://www.wolfram.com/language/fast-introduction-for-programmers/es/
+
+Crear la licencia de Mathematica
+https://www.escinf.una.ac.cr/discretas/index.php/obtener-tecnologias-de-wolfram
+
+La practica de Mathematica
+
 ---------
 
 Evaluaciones:
+
+Examenes>> I Parcial 35% - II Parcial 35%
+Actividades de Aprendizaje (Quices 6 O 7)>> 30%
 
 --------
 
 Requisitos:
 
+Mathematica/Graphing Calculator
 
 ---------
 
-Romanos 8:11
+Marcos 10:18
 
 ----------
-
