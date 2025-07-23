@@ -19,7 +19,7 @@ Grupo de Trabajo:
 Pendientes:
 
 > Instalar el software del Curso
-> Mathematica
+> Mathematica (Paletas > Otros > Matematica avanzada)
 > Graphing Calculator
 
 > Completar la siguiente documentacion:
