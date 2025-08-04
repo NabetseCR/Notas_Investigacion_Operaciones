@@ -1,0 +1,36 @@
+Esteban Chinchilla Brenes - Clase 3 de Investigacion de Operaciones notas
+--------
+
+Materia:
+Ecuacion recta = y = mx + b
+m es pendiente
+m = y1-y2/x1-x2
+b = pendiente y
+
+m puede ser positivo (funcion lineal creciente)
+m puede ser negativo (funcion lineal decreciente)
+m puede ser 0 (funcion lineal constante) => y = 0x+b (horizontal)
+					    y = b
+				            x = # (vertical)
+
+Ejemplo 2.5
+Solucion
+(5.34, -0.30)
+
+Ejemplos ilustrativos
+
+ECUACION CIRCULO
+centro = a,b
+Radio = r
+
+
+---------
+
+Pendientes:
+
+Hacer practica #1 y #2
+---------
+
+Marcos 10:18
+
+----------
