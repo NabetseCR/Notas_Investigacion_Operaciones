@@ -3,6 +3,49 @@ Esteban Chinchilla Brenes - Clase 1 de Investigacion Operaciones notas
 
 Materia:
 
+Recortar rectas que no son verticales ni horizontales
+
+!! Limitar dominio de la funcion
+
+Expr y = x + 3, 4 < y < 6
+
+
+Para pintar es lo siguiente:
+
+= es graficar el borde
+>,< es para graficar area
+
+A estas se utiliza la formula de la recta para delimitar los valores de y
+
+
+Expr y > (-x)/(2) + ((9)/(2)), y > x+3, y < (-x)/(5) + ((33/(5))
+
+Ejercicio 6
+
+1. Graficar los puntos.
+2. Luego de identificar los puntos que sirven para crear una recta
+3. Utilizo el codigo de Mathematica para tener la formula de la recta. [Shift + Enter]
+4. Luego debo delimitar esa recta lo defino [-1<x<2;]
+5. Volvemos a punto 1.
+6. Al terminar el perimetro vamos con el area
+7. 
+
+Conexidad (El grafico se puede pintar en una linea de color) y Convexidad
+
+Cuando no es conexa se debe hacer en mas de una.
+
+Ejercicio 7 (Sistemas de ecuaciones)
+Ver los puntos de interseccion de una con otra
+
+Ejercicio de dibujar
+1. Hacer una cuadricula (un eje x, y)
+
+Curvas se grafican con senos y cosenos.
+Con sumar dibujo sube, con restar dibujo baja
+
+Para poner un deslizador (se pone un n y multiplica alguna varia)
+
+Tener a mano la ecuacion de diferentes figuras por ejemplo la del circulo.
 
 --------
 
@@ -13,13 +56,15 @@ Grupo de Trabajo:
 
 Pendientes:
 
+Quiz Fin de semana
+Terminar dibujo barco.
+
 ---------
 
-El Señor no retarda su promesa, según algunos la tienen por tardanza, 
-sino que es paciente para con nosotros, no queriendo que ninguno perezca, 
-sino que todos procedan al arrepentimiento.
+Dios no envió a su Hijo al mundo para condenar al mundo, 
+sino para salvarlo por medio de él.
 
-2 PEDRO 3:9
+JUAN 3:17
 
 ----------
 

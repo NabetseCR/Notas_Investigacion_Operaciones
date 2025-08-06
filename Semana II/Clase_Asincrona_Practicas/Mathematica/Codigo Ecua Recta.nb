@@ -1,0 +1,243 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Wolfram 14.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       154,          7]
+NotebookDataLength[      8541,        233]
+NotebookOptionsPosition[      7418,        206]
+NotebookOutlinePosition[      7830,        222]
+CellTagsIndexPosition[      7787,        219]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"NSolve", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{"3", "x"}], "+", 
+       RowBox[{"2", "y"}]}], "==", "1"}], ",", " ", 
+     RowBox[{"y", " ", "==", " ", 
+      RowBox[{
+       RowBox[{"5", "x"}], "+", "1"}]}]}], "}"}], ",", " ", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", "y"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.963332631525854*^9, 3.963332675282358*^9}},
+ CellLabel->"In[7]:=",ExpressionUUID->"34a486f2-4d94-bd44-9fc1-cc2bb04f4c2c"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"x", "\[Rule]", 
+     RowBox[{"-", "0.07692307692307693`"}]}], ",", 
+    RowBox[{"y", "\[Rule]", "0.6153846153846154`"}]}], "}"}], "}"}]], "Output",
+ CellChangeTimes->{{3.9633326672684917`*^9, 3.9633326871981544`*^9}, 
+   3.963332739430353*^9},
+ CellLabel->"Out[7]=",ExpressionUUID->"8acbfed3-70b6-fd48-b97a-04b3105de194"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"(*", 
+  RowBox[{
+  "Calculo", " ", "de", " ", "la", " ", "recta", " ", "que", " ", "pasa", " ",
+    "por", " ", "dos", " ", "puntos"}], "*)"}]], "Input",
+ CellChangeTimes->{{3.9633337487203636`*^9, 
+  3.9633337611738567`*^9}},ExpressionUUID->"902efafb-b89b-e546-80da-\
+6682a8b566c1"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"a", " ", "=", 
+   RowBox[{"Input", "[", "\"\<Digite el valor de x1\>\"", "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"b", " ", "=", 
+   RowBox[{"Input", "[", "\"\<Digite el valor de y1\>\"", "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"c", " ", "=", 
+   RowBox[{"Input", "[", "\"\<Digite el valor de x2\>\"", "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"d", " ", "=", 
+   RowBox[{"Input", "[", "\"\<Digite el valor de y2\>\"", "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"CalcularRecta", "[", 
+   RowBox[{"x1_", ",", "y1_", ",", "x2_", ",", "y2_"}], "]"}], ":=", " ", 
+  RowBox[{"If", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"NumberQ", "[", "x1", "]"}], " ", "&&", " ", 
+     RowBox[{"NumberQ", "[", "y1", "]"}], "&&", 
+     RowBox[{"NumberQ", "[", "x2", "]"}], "&&", 
+     RowBox[{"NumberQ", "[", "y2", "]"}]}], ",", "\[IndentingNewLine]", 
+    RowBox[{"Module", "[", 
+     RowBox[{
+      RowBox[{"{", "m", "}"}], ",", 
+      RowBox[{
+       RowBox[{"If", "[", 
+        RowBox[{
+         RowBox[{"x1", "==", "x2"}], ",", 
+         RowBox[{
+         "Return", "[", 
+          "\"\<La pendiente es indefinida: los puntos tienen la misma \
+coordenada x.\>\"", "]"}]}], "]"}], ";", "\[IndentingNewLine]", 
+       RowBox[{"m", "=", 
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{"y2", "-", "y1"}], ")"}], "/", 
+         RowBox[{"(", 
+          RowBox[{"x2", "-", "x1"}], ")"}]}]}], ";", "\[IndentingNewLine]", 
+       RowBox[{"b", "=", 
+        RowBox[{"y1", "-", 
+         RowBox[{"m", " ", "x1"}]}]}], ";", "\[IndentingNewLine]", 
+       RowBox[{"recta", "=", 
+        RowBox[{"y", "==", 
+         RowBox[{
+          RowBox[{"m", " ", "x"}], "+", "b"}]}]}], ";", "\[IndentingNewLine]", 
+       RowBox[{"Print", "[", 
+        RowBox[{"\"\<La pendiente (m) es: \>\"", ",", "m"}], "]"}], ";", 
+       "\[IndentingNewLine]", 
+       RowBox[{"Print", "[", 
+        RowBox[{"\"\<La ordenada al origen (b) es: \>\"", ",", "b"}], "]"}], 
+       ";", "\[IndentingNewLine]", 
+       RowBox[{"Print", "[", 
+        RowBox[{
+        "\"\<La ecuaci\[OAcute]n de la recta es: \>\"", ",", "recta"}], "]"}],
+        ";", "\[IndentingNewLine]", "recta"}]}], "]"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{
+    "Print", "[", "\"\<Alguno de los valores ingresados no es numerico\>\"", 
+     "]"}]}], "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{"CalcularRecta", "[", 
+  RowBox[{"a", ",", "b", ",", "c", ",", "d"}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Clear", "[", 
+  RowBox[{"a", ",", "b", ",", "c", ",", "d"}], 
+  "]"}], "\[IndentingNewLine]"}], "Input",
+ CellChangeTimes->{{3.9633332582548847`*^9, 3.9633335151209984`*^9}, {
+  3.9633335942452087`*^9, 3.9633335947071304`*^9}},
+ CellLabel->"In[90]:=",ExpressionUUID->"259a96ae-8c85-d243-9f3e-71a27752df18"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"La pendiente (m) es: \"\>", "\[InvisibleSpace]", 
+   RowBox[{"-", 
+    FractionBox["5", "3"]}]}],
+  SequenceForm["La pendiente (m) es: ", 
+   Rational[-5, 3]],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.96333352283724*^9, 3.9633336014073772`*^9, 
+  3.963333796177311*^9, 3.963333878075676*^9, 3.963333938301653*^9, 
+  3.963334424994282*^9, 3.9633345433887234`*^9, 3.963334621321411*^9, 
+  3.9633346634706764`*^9, 3.963334726832054*^9, 3.963334799233017*^9, 
+  3.9633348506429043`*^9},
+ CellLabel->
+  "Durante la evaluaci\[OAcute]n de \
+In[90]:=",ExpressionUUID->"178d81a8-99a4-9845-a81b-05fa7ebca75f"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"La ordenada al origen (b) es: \"\>", "\[InvisibleSpace]", 
+   FractionBox["1", "3"]}],
+  SequenceForm["La ordenada al origen (b) es: ", 
+   Rational[1, 3]],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.96333352283724*^9, 3.9633336014073772`*^9, 
+  3.963333796177311*^9, 3.963333878075676*^9, 3.963333938301653*^9, 
+  3.963334424994282*^9, 3.9633345433887234`*^9, 3.963334621321411*^9, 
+  3.9633346634706764`*^9, 3.963334726832054*^9, 3.963334799233017*^9, 
+  3.963334850645441*^9},
+ CellLabel->
+  "Durante la evaluaci\[OAcute]n de \
+In[90]:=",ExpressionUUID->"425e13bb-2a85-6748-9179-69f7bd344900"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"La ecuaci\[OAcute]n de la recta es: \"\>", "\[InvisibleSpace]", 
+   RowBox[{"y", "\[Equal]", 
+    RowBox[{
+     FractionBox["1", "3"], "-", 
+     FractionBox[
+      RowBox[{"5", " ", "x"}], "3"]}]}]}],
+  SequenceForm[
+  "La ecuaci\[OAcute]n de la recta es: ", $CellContext`y == 
+   Rational[1, 3] + Rational[-5, 3] $CellContext`x],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.96333352283724*^9, 3.9633336014073772`*^9, 
+  3.963333796177311*^9, 3.963333878075676*^9, 3.963333938301653*^9, 
+  3.963334424994282*^9, 3.9633345433887234`*^9, 3.963334621321411*^9, 
+  3.9633346634706764`*^9, 3.963334726832054*^9, 3.963334799233017*^9, 
+  3.9633348506495*^9},
+ CellLabel->
+  "Durante la evaluaci\[OAcute]n de \
+In[90]:=",ExpressionUUID->"ac5530de-4ee1-ec40-aa1a-f065572a2f89"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"y", "\[Equal]", 
+  RowBox[{
+   FractionBox["1", "3"], "-", 
+   FractionBox[
+    RowBox[{"5", " ", "x"}], "3"]}]}]], "Output",
+ CellChangeTimes->{3.963333796196308*^9, 3.9633338780948696`*^9, 
+  3.9633339383198185`*^9, 3.963334425006716*^9, 3.963334543404894*^9, 
+  3.963334621330538*^9, 3.96333466348287*^9, 3.9633347268456764`*^9, 
+  3.9633347992446117`*^9, 3.9633348506530247`*^9},
+ CellLabel->"Out[95]=",ExpressionUUID->"99a5f057-208c-db46-870c-8d891bb44786"]
+}, Open  ]]
+},
+WindowSize->{372, 486.75},
+WindowMargins->{{Automatic, -378.75}, {Automatic, -252.75}},
+FrontEndVersion->"14.1 para Microsoft Windows (64-bit) (July 16, 2024)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"4d733820-eb95-d443-b1b5-ca2258926d24"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[576, 22, 521, 15, 63, "Input",ExpressionUUID->"34a486f2-4d94-bd44-9fc1-cc2bb04f4c2c"],
+Cell[1100, 39, 391, 9, 32, "Output",ExpressionUUID->"8acbfed3-70b6-fd48-b97a-04b3105de194"]
+}, Open  ]],
+Cell[1506, 51, 307, 7, 47, "Input",ExpressionUUID->"902efafb-b89b-e546-80da-6682a8b566c1"],
+Cell[CellGroupData[{
+Cell[1838, 62, 2895, 72, 865, "Input",ExpressionUUID->"259a96ae-8c85-d243-9f3e-71a27752df18"],
+Cell[CellGroupData[{
+Cell[4758, 138, 658, 15, 35, "Print",ExpressionUUID->"178d81a8-99a4-9845-a81b-05fa7ebca75f"],
+Cell[5419, 155, 653, 14, 35, "Print",ExpressionUUID->"425e13bb-2a85-6748-9179-69f7bd344900"],
+Cell[6075, 171, 826, 19, 35, "Print",ExpressionUUID->"ac5530de-4ee1-ec40-aa1a-f065572a2f89"]
+}, Open  ]],
+Cell[6916, 193, 486, 10, 46, "Output",ExpressionUUID->"99a5f057-208c-db46-870c-8d891bb44786"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

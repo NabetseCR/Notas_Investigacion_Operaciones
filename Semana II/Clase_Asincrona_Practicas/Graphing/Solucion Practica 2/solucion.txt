@@ -1,0 +1,92 @@
+
+# Ejer 01
+
+Color 1; Expr  y = x^4 + 2*x^3 -1;
+Color 2; Expr  y = x^2 - 2*x _3;
+
+# Ejer 02
+# Ejer 02.a
+Color 1; Expr y = sqrt(x+5);
+Color 2; Expr y =x^2;
+
+# Ejer 02.b
+Color 1; Expr y = (1)/(x+1) ;
+Color 2; Expr y = (x^(3)-1)/(x+4);
+
+# Ejer 02.c
+Color 1; Expr y = abs(x-1);
+Color 2; Expr y =x+2;
+
+# Ejer 03
+
+Color 1; Expr  (193)/(28) - (3*x)/(7) +(x^2)/(14) -(5*y)/(2) +(y^2)/(4)=1;
+
+Color 3; Expr vector((-10), (2));
+Color 3; Expr vector((0), (0));
+Color 3; Expr vector((2), (8));
+Color 3; Expr vector((5), (3));
+Color 3; Expr vector((3), (3));
+Color 3; Expr vector((3-((1)/(2))*sqrt(42)), (4));
+Color 3; Expr vector((5), (-3));
+Color 3; Expr vector((-4), (6));
+Color 3; Expr vector((-1), (4));
+Color 3; Expr vector((-6), (2));
+Color 3; Expr vector((3), (7));
+Color 3; Expr vector((2), (5));
+
+# Ejer 04
+
+Color 4; Expr 3*x + 2*y =1;
+Color 6; Expr y = 5*x+1;
+
+Color 2; Expr vector(-0.07, 0.61); 
+
+# Ejer 05
+
+Color 2; Expr  vector(1,4); 
+Color 3; Expr  vector(3,6); 
+Color 8; Expr  vector(-7,8); 
+
+Color 4; Expr y =x+3 , 1<x<3;
+Color 1; Expr y =(-x)/(5) + ((33)/(5)), -7<x<3;
+Color 5; Expr y =(-x)/(2) + ((9)/(2)), -7<x<1;
+
+Color 6; Expr   y >(-x)/(2) + ((9)/(2)),  y < (-x)/(5) + ((33)/(5)),  y >x+3;
+
+# Ejer 06
+
+Color 8; Expr  vector(-1,2); 
+Color 8; Expr  vector(2,-3); 
+Color 8; Expr  vector(4,1); 
+Color 8; Expr  vector(-7,8); 
+
+Color 4; Expr y = -x + 1 , -7 <x < -1;
+Color 1; Expr y =(-5*x)/(3) + ((1)/(3)), -1<x<2;
+Color 5; Expr y =2*x - 7 , 2<x<4;
+Color 7; Expr y =(-7*x)/(11) + ((39)/(11)), -7<x<4;
+
+Color 6; Expr y >  -x + 1 , -7 <x < -1,y <(-7*x)/(11) + ((39)/(11));
+Color 6; Expr y <(-7*x)/(11) + ((39)/(11)), -1<x<4,  y  > (-5*x)/(3) + ((1)/(3)), y >2*x - 7 ;
+
+# Ejer 07
+
+# Ejer 07.a
+Color 3; Expr  x- y = 1;
+Color 2; Expr  7*x - 3*y = 9;
+
+# Ejer 07.b
+Color 3; Expr  2*x + 3*y = 7;
+Color 2; Expr  3*x + 4*y = 12;
+
+# Ejer 07.c
+Color 5; Expr  x + y + z = 6;
+Color 6; Expr  x - y + 2*z = 20;
+Color 1; Expr  x - y -5*z = -10;
+# Ejer 07.d
+
+# Ejer 07.e
+
+# Ejer 07.f
+
+
+# Ejer 08
